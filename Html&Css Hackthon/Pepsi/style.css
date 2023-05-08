@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+    color:#0065c3 ;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(54, 54, 228);
+    height: 20dvh;
+    color: #ffffff;
+}
+
+.flex-child {
+    flex: 1;
+    margin: 40px 20px;
+    font-size: 25px;
+}  
+
+.flex-child:first-child {
+    margin-left: 20px ;
+} 
+.flex-child button  {
+ border-radius: 40px ;
+ border-color: #ffffff;
+ background-color: rgb(54, 54, 228);
+ font-size:  1 em ;
+ text-transform: uppercase;
+ color: #ffffff;
+ height: 45px;
+ width: 100%;
+}
+.flex-child button:hover{
+    transition: 2s;
+    background-color: #ffffff;
+}  
+
+#zero-sugar .promo-left .promo-container1{
+ width: 100% !important;
+ background-color: #000 ;
+ width: auto;
+ height: 500px;
+ background-image: url(./Assets/zero-sugar.png );
+ background-repeat: no-repeat;
+ background-size: 40%;
+ background-position: center;
+}
+
+.promo-container1 h2 {
+    float: right;
+    margin: 100px ;
+    height: 500px;
+    position: relative;
+}
+.products{
+     background-image: linear-gradient(to right, rgba(255,0,0,0),  rgb(14, 116, 211));
+    height: 800px;
+}
+.products h1{
+    text-transform: uppercase;
+    color: #fff;
+    float: right;
+    margin-left: 390px;
+    transform: translateY(300px);
+}
+.products  h2{
+    text-transform: uppercase;
+    color: #fff;
+    float: right;
+    transform: translateY(350px);
+}
+
+.products button {
+    border-radius: 5px 25px;
+    padding: 20px;
+    background-color: transparent;
+    color: #fff;
+    border-color: #0065c3;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    right: -90px;
+    top: -280px;
+    cursor: pointer;
+}
+
+.mango{
+    background-color: #0065c3;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mango .heading{
+ height: 80%;
+ top: 30px;
+ right: 10%;
+}
+
+.mango .img-left {
+  float: left;
+  height: 90%;
+   right: 0 ;
+   left: 5px;
+    z-index: 1;
+    margin-bottom: 10px;
+    transform: translateY(44%);
+}
+.mango .img-right{
+ height: 60dvh;
+ width: auto;
+ float: right;
+ margin-top: 10px;
+ transform: translateY(10%);
+
+}
+.video-container{
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+.video {
+    object-fit: contain;
+    overflow-clip-margin: content-box ;
+    overflow: clip;
+    width: 1300px;
+}
+
+#promotion{
+ background-color: #0065c3;
+ height: 600px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.promoleft img{
+    height: 500px;
+    width: auto;
+    margin-top: 5%;
+}
+.promoright img{
+    height: 40%;
+    float: right;
+    top: 10%;
+    right: 0%; 
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color:  #0065c3;
+    color: #ffffff;
+    height: 480px;
+
+}
+
+.row > div {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    font-size: 1.5em;color: white;
+}
+.linklist {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    column-count: 3;
+    column-gap: 2rem;
+}
+
+.footer-link {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+padding-inline-start: 40px;
+}
+
+.footer__link-item{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 1rem;
+ margin-bottom: 1rem;
+ white-space: nowrap;
+ transition: 2s rase-out;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.subscribe{
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    border: 2px solid #fff;
+   padding: 10px;
+   border-radius: 25px;
+   width: 50% ;
+   border-left-style: solid;
+   border-left-width: thick;
+   border-right-style: solid;
+  border-right-width: thick;
+  margin-left: 220px;
+  cursor: pointer;
+}
+
+
